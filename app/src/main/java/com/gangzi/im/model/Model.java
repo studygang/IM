@@ -42,8 +42,8 @@ public class Model {
      * @param context
      */
     public void init(Context context){
-        context=mContext;
-        userAccountDao=new UserAccountDao(context);
+        mContext=context;
+        userAccountDao=new UserAccountDao(mContext);
     }
     public ExecutorService getGlobalThreadPool(){
         return mService;
