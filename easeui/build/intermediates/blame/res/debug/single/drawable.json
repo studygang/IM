@@ -4,12 +4,12 @@
         "source": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\res\\drawable\\ease_recording_hint_bg.xml"
     },
     {
-        "merged": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_blue_selector.xml",
-        "source": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\res\\drawable\\ease_btn_blue_selector.xml"
-    },
-    {
         "merged": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chatting_setmode_voice_btn.xml",
         "source": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\res\\drawable\\ease_chatting_setmode_voice_btn.xml"
+    },
+    {
+        "merged": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_blue_selector.xml",
+        "source": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\res\\drawable\\ease_btn_blue_selector.xml"
     },
     {
         "merged": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_blue_normal_shape.xml",

@@ -112,12 +112,12 @@
         "source": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\res\\drawable-hdpi\\ee_26.png"
     },
     {
-        "merged": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_25.png",
-        "source": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\res\\drawable-hdpi\\ee_25.png"
-    },
-    {
         "merged": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_input_bar_bg_normal.9.png",
         "source": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\res\\drawable-hdpi\\ease_input_bar_bg_normal.9.png"
+    },
+    {
+        "merged": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_25.png",
+        "source": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\res\\drawable-hdpi\\ee_25.png"
     },
     {
         "merged": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_default_image.png",

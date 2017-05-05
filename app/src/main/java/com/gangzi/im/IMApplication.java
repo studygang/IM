@@ -2,6 +2,7 @@ package com.gangzi.im;
 
 import android.app.Application;
 
+import com.gangzi.im.model.Model;
 import com.hyphenate.chat.EMOptions;
 import com.hyphenate.easeui.controller.EaseUI;
 
@@ -17,5 +18,6 @@ public class IMApplication extends Application {
         options.setAutoAcceptGroupInvitation(false);
         options.setAutoAcceptGroupInvitation(false);
         EaseUI.getInstance().init(this,options);
+        Model.getInstance().init(this);
     }
 }

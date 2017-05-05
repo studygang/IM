@@ -108,12 +108,12 @@
         "source": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\res\\layout\\ease_row_received_voice.xml"
     },
     {
-        "merged": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_received_file.xml",
-        "source": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\res\\layout\\ease_row_received_file.xml"
-    },
-    {
         "merged": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_received_voice_call.xml",
         "source": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\res\\layout\\ease_row_received_voice_call.xml"
+    },
+    {
+        "merged": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_received_file.xml",
+        "source": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\res\\layout\\ease_row_received_file.xml"
     },
     {
         "merged": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\layout\\ease_fragment_contact_list.xml",
