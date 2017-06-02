@@ -50,6 +50,7 @@ public class SettingFragment extends BaseFragment implements View.OnClickListene
                 EMClient.getInstance().logout(false, new EMCallBack() {
                     @Override
                     public void onSuccess() {
+                        Model.getInstance().getDbManager().close();
                         getActivity().runOnUiThread(new Runnable() {
                             @Override
                             public void run() {

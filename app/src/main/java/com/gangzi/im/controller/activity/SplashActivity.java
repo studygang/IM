@@ -45,6 +45,7 @@ public class SplashActivity extends Activity {
                     if (userInfo==null){
                         startActivity(new Intent(SplashActivity.this,LoginActivity.class));
                     }else{
+                        Model.getInstance().loginSuccess(userInfo);
                         startActivity(new Intent(SplashActivity.this, MainActivity.class));
                     }
                 }else{//没登录过

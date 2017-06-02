@@ -7,7 +7,9 @@ package com.gangzi.im.model;
 import android.content.Context;
 import android.graphics.PorterDuff;
 
+import com.gangzi.im.model.bean.UserInfo;
 import com.gangzi.im.model.dao.UserAccountDao;
+import com.gangzi.im.model.db.DBManager;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -21,6 +23,7 @@ public class Model {
     private Context mContext;
     private ExecutorService mService= Executors.newCachedThreadPool();
     private UserAccountDao userAccountDao;
+    private DBManager dbManager;
 
     private Model(){
 
@@ -44,6 +47,8 @@ public class Model {
     public void init(Context context){
         mContext=context;
         userAccountDao=new UserAccountDao(mContext);
+        //开启全局监听
+        EventListener eventListener=new EventListener(mContext);
     }
     public ExecutorService getGlobalThreadPool(){
         return mService;
@@ -52,7 +57,17 @@ public class Model {
     /**
      * 用户登录成功后处理
      */
-    public void loginSuccess() {
+    public void loginSuccess(UserInfo account) {
+        if (account==null){
+            return;
+        }
+        if (dbManager!=null){
+            dbManager.close();
+        }
+        dbManager=new DBManager(mContext,account.getUserName());
+    }
+    public DBManager getDbManager(){
+        return  dbManager;
     }
 
     /**

@@ -26,7 +26,7 @@ public class AddContactActivity extends Activity implements View.OnClickListener
     Button bt_add;
     @BindView(R.id.find)
     TextView tv_find;
-    @BindView(R.id.et_name)
+    @BindView(R.id.et_names)
     EditText et_name;
     @BindView(R.id.tv_name)
     TextView tv_name;
@@ -41,6 +41,7 @@ public class AddContactActivity extends Activity implements View.OnClickListener
         setContentView(R.layout.activity_add_contact);
         ButterKnife.bind(this);
         bt_add.setOnClickListener(this);
+        tv_find.setOnClickListener(this);
     }
 
     @Override

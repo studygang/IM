@@ -1,6 +1,7 @@
 package com.gangzi.im;
 
 import android.app.Application;
+import android.content.Context;
 
 import com.gangzi.im.model.Model;
 import com.hyphenate.chat.EMOptions;
@@ -11,6 +12,9 @@ import com.hyphenate.easeui.controller.EaseUI;
  */
 
 public class IMApplication extends Application {
+
+    private static Context context;
+
     @Override
     public void onCreate() {
         super.onCreate();
@@ -19,5 +23,11 @@ public class IMApplication extends Application {
         options.setAutoAcceptGroupInvitation(false);
         EaseUI.getInstance().init(this,options);
         Model.getInstance().init(this);
+        //初始化全局上下文
+        context=this;
+    }
+    //获取全局上下文对象
+    public static Context getGlobalApplication(){
+        return context;
     }
 }

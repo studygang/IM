@@ -12,12 +12,12 @@
         "source": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_common_tab_bg.xml"
     },
     {
-        "merged": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_type_select_btn.xml",
-        "source": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_type_select_btn.xml"
-    },
-    {
         "merged": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chatting_setmode_keyboard_btn.xml",
         "source": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chatting_setmode_keyboard_btn.xml"
+    },
+    {
+        "merged": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_type_select_btn.xml",
+        "source": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_type_select_btn.xml"
     },
     {
         "merged": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chatto_bg.xml",

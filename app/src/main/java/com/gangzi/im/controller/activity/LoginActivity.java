@@ -113,7 +113,7 @@ public class LoginActivity extends Activity implements View.OnClickListener{
                     @Override
                     public void onSuccess() {
                         //对模型层数据的处理
-                        Model.getInstance().loginSuccess();
+                        Model.getInstance().loginSuccess(new UserInfo(name));
                         //保存用户账号信息到本地数据库
                         Model.getInstance().getUserDao().addAccount(new UserInfo(name));
                         runOnUiThread(new Runnable() {

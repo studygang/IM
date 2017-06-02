@@ -20,16 +20,16 @@
         "source": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\res\\layout\\ease_widget_voice_recorder.xml"
     },
     {
-        "merged": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_chat_primary_menu.xml",
-        "source": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\res\\layout\\ease_widget_chat_primary_menu.xml"
+        "merged": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_message.xml",
+        "source": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\res\\layout\\ease_row_sent_message.xml"
     },
     {
         "merged": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_location.xml",
         "source": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\res\\layout\\ease_row_sent_location.xml"
     },
     {
-        "merged": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_message.xml",
-        "source": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\res\\layout\\ease_row_sent_message.xml"
+        "merged": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_chat_primary_menu.xml",
+        "source": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\res\\layout\\ease_widget_chat_primary_menu.xml"
     },
     {
         "merged": "F:\\chaixiaogang\\workSpace\\Android\\IM\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_message.xml",
